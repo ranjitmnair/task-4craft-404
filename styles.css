@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
-#one,#two,#three {
+#one,#two,#three,#four {
   background-position: center;
   min-height: 75vh;  
 }
@@ -12,6 +12,14 @@
 #three{
     background-image: url('./img/Layer3.png');
 }
+#four{
+    background-image: url('./img/Layer5.png');
+    color: white;
+    text-align: center;
+}
+#five{
+    background-image: url('./img/Layer6.png');
+}
 #linesec1{
     width: 20%;
     border: 2px white;
@@ -19,6 +27,11 @@
 #subheading{
     font-family: 'Pacifico', cursive;
     color: white;
+}
+#copyright{
+    font-weight: 0.5em;
+    color: whitesmoke;
+
 }
 hr{
     border: 1px solid red;
